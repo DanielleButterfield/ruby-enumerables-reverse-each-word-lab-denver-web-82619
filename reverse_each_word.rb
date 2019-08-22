@@ -5,6 +5,6 @@ def reverse_each_word(str)
     arr[count].reverse!
     count += 1
   end
-  newStr = arr.join
+  newStr = arr.join(" ")
   return newStr
 end
