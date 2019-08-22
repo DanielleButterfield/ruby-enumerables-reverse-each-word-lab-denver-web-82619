@@ -1,7 +1,7 @@
 def reverse_each_word(str)
   arr = []
   arr = str.split
-  arr.each.reverse
+  arr.reverse_each
   newStr = arr.join
   return newStr
 end
