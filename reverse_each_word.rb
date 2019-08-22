@@ -1,5 +1,5 @@
 def reverse_each_word(str)
-  arr = str.split
+  arr = str.collect
   count = 0
   while arr[count] do
     arr[count].reverse!
